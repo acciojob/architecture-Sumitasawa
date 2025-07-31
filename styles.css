@@ -1,1 +1,16 @@
 /*  your css code here. If applicable */
+body{
+	background-color:#cbd6cb;
+	max-width:1100px;
+}
+.imageContainer{
+	
+}
+tr td:nth-child(1),
+tr td:nth-child(3){
+	width:200px;
+}
+
+tr td:nth-child(2){
+	width:600px
+}
