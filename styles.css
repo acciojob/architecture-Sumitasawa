@@ -1,16 +1,33 @@
-/*  your css code here. If applicable */
-body{
-	background-color:#cbd6cb;
-	max-width:1100px;
-}
-.imageContainer{
-	
-}
-tr td:nth-child(1),
-tr td:nth-child(3){
-	width:200px;
+body {
+	background-color: #cbd6cb;
+	max-width: 1100px;
+	margin: auto;
 }
 
-tr td:nth-child(2){
-	width:600px
+.imageContainer {
+	margin: 20px 0;
+	text-align: center;
+}
+
+.imageContainer img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: auto;
+}
+
+/* Only first row td: 1st and 3rd column */
+table tr:first-child td:nth-child(1),
+table tr:first-child td:nth-child(3) {
+	width: 200px;
+}
+
+table tr:first-child td:nth-child(2) {
+	width: 600px;
+}
+
+table img {
+	width: 100%;
+	height: auto;
+	display: block;
 }
